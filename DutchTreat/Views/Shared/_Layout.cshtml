@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Dutch Treat2: @ViewBag.Title</title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1>Welcome to Dutch Treat</h1>
         <menu>
             <ul>
@@ -23,7 +24,8 @@
     <footer>Copyright 2018 Futch Treat LLC</footer>
 
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/index.js"></script>
-    @RenderSection("Scripts" , false)
+    @RenderSection("Scripts", false)
 </body>
 </html>
